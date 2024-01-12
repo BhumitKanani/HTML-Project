@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ll;, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles_dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div>
+    <nav id="navbar">
+        <div class="navbar-logos">
+            
+            <img src="/images/menu-bar.svg" alt="" class="menu-img">
+            <img src="/images/logo.svg" alt="" height="30px" width="142px" class="company-logo">
+        </div>
+        <div class="search-bar">
+            <img src="/images/search-icon.svg" alt="" height="20px">
+            <input type="text" name="" id="" placeholder="Search">
+        </div>
+        <div class="profile">
+            <img src="/images/notification-icon.svg" alt="" height="25px">
+            <img src="/images/profile.png" alt="" height="40px" class="profile-img">
+            <span>John Doe</span>
+            <img src="/images/downward-arrow.svg" alt="" class="down-arrow">
+        </div>
+    </nav>
+    <!-- navbar completed -->
+
+    <!-- Bottom part of page started -->
+
+    <div class="sidebar-content-div">
+    <!-- Creating sidebar -->
+    <section id="sidebar">
+
+        <ul class="sidebar-menu">
+            <li>
+                <a href="#" class="active">
+                    <img src="/images/dashboard-active.svg" alt="" height="20px" width="20px">
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/images/graph-default.svg" alt="" height="20px" width="20px">
+                    <span>Analysis</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/images/inbox-default.svg" alt="" height="20px" width="20px">
+                    <span>Inbox</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/images/clock-default.svg" alt="" height="20px" width="20px">
+                    <span>History</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/images/user-default.svg" alt="" height="20px" width="20px">
+                    <span>Users</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/images/maintenance-default.svg" alt="" height="20px" width="20px">
+                    <span>Maintenance</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/images/setting-default.svg" alt="" height="20px" width="20px">
+                    <span>Setting</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- Sidebar completed -->
+
+    <!-- Content page started -->
+    <div class="page-content">
+        <h2>Dashboard</h2>
+           
+          <div class="content-div">
+          <ul class="content-box">
+            <li>
+                <img src="/images/star.svg" alt="" height="40px">
+                <span class="content-box-text">
+                    <h3>23,456</h3>
+                    <p>New Products</p>
+                </span>
+            </li>
+            <li>
+                <img src="/images/new-product.svg" alt="">
+                <span class="content-box-text">
+                    <h3>2345</h3>
+                    <p>Added Products</p>
+                </span>
+            </li>
+            <li>
+                <img src="/images/total-product.svg" alt="" height="40px">
+                <span class="content-box-text">
+                    <h3>32456</h3>
+                    <p>Total Products</p>
+                </span>
+            </li>
+            <li>
+                <img src="/images/dollar-filled.svg" alt="">
+                <span class="content-box-text">
+                    <h3>5678</h3>
+                    <p> Today's Sale</p>
+                </span>
+            </li>
+            <li>
+                <img src="/images/money-bag.svg" alt="">
+                <span class="content-box-text">
+                    <h3>33532</h3>
+                    <p>Total Sales</p>
+                </span>
+            </li>
+          </ul>
+
+          
+            <div class="wrapper">
+                <div class="box-a">
+                    <div class="graph-discription">
+                        <div class="header"><b>Sale</b></div>
+                        <div class="time-filters">
+                            <div class="time-filters">Daily</div>
+                            <div class="time-filters">Monthly</div>
+                            <div class="time-filters active">Yearly</div>
+                        </div>
+                    </div>
+                    <div class="graph-img">
+                    <img src="/images/data-graph.png" alt="" width="100%"></div></div>
+
+                <div class="box-b">
+                    <div class="header1"><b>Sales by country</b></div>
+                    <div class="pie-img">
+                        <img src="/images/pie-chart.svg" alt="" width="80%"></div>
+
+                        <div class="pie-discription">
+                        <div class="pie-discription1">
+                            <div>
+                                <img src="/images/radio-checked-icon.svg" alt="" height="50px">
+                                <span>United States of America</span>
+                            </div>
+                            <div>
+                                <img src="/images/radio-checked-icon.svg" alt="" height="50px">
+                                <span>Canada</span>
+                            </div>
+                        </div>
+                        <div class="pie-discription2">
+                            <div>
+                                <img src="/images/radio-checked-icon.svg" alt="" height="50px">
+                                <span>Russia</span>
+                            </div>
+                            <div>
+                                <img src="/images/radio-checked-icon.svg" alt="" height="50px">
+                                <span>India</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        
+        </div>
+    </div>
+    <div class="table">
+        <table class="table">
+            <thead>
+              <tr class="col-heading">
+                <th scope="col">INVOICE</th>
+                <th scope="col">COMPANY NAME</th>
+                <th scope="col">EMAIL</th>
+                <th scope="col">DUE DATE</th>
+                <th scope="col">STATUS</th>
+                <th scope="col">AMOUNT</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">651535</th>
+                <td>Public Adjusting Firm</td>
+                <td>georgia.young@example.com</td>
+                <td>24 May, 2020</td>
+                <td ><div class="status-pos">Paid</div></td>
+                <td>$47,800</td>
+              </tr>
+              <tr>
+                <th scope="row">558612</th>
+                <td>Other</td>
+                <td>jessica.hanson@example.com</td>
+                <td>24 May, 2020</td>
+                
+                    <td ><div class="status-pos">Paid</div></td>
+                    
+                <td>$98,000</td>
+              </tr>
+              <tr>
+                <th scope="row">558612</th>
+                <td>Vendor</td>
+                <td>alma.lawson@example.com</td>
+                <td>8 Sep, 2020</td>
+                <td ><div class="status-pos">Paid</div></td>
+                <td>$20,900</td>
+              </tr>
+              <tr>
+                <th scope="row">558612</th>
+                <td>Property Management Company</td>
+                <td>kenzi.lawson@example.com</td>
+                <td>22 Oct, 2020</td>
+                <td ><div class="status-pos">Paid</div></td>
+                <td>$10,570</td>
+              </tr>
+              <tr>
+                <th scope="row">651535</th>
+                <td>Subcontractor Company</td>
+                <td>jackson.graham@example.com</td>
+                <td>1 Feb, 2020r</td>
+                
+                <td ><div class="status-fal">Failed</div></td>
+            
+                <td>$10,200</td>
+              </tr>
+              <tr>
+                <th scope="row">653518</th>
+                <td>Mortgage Company</td>
+                <td>felicia.reid@example.com</td>
+                <td>22 Oct, 2020</td>
+                
+                <td ><div class="status-pen">Pending</div></td>
+            
+                <td>$12,600</td>
+              </tr>
+              <tr>
+                <th scope="row">487441</th>
+                <td>TPA</td>
+                <td>dolores.chambers@example.com</td>
+                <td>21 Sep, 2020</td>
+                <td ><div class="status-pos">Paid</div></td>
+                <td>$11,170</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    </div>
+
+    
+
+
+
+</div>
+
+</body>
+</html>

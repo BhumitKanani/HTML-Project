@@ -1,0 +1,150 @@
+/* Common Styling */
+body {
+    background-color: #FAFAFA;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 48px;
+    margin-left: 80px;
+    width: auto;
+}  
+
+/* Hero Image Styling */
+div .hero-image {
+    width: auto;
+    height: 576px;
+   margin-left: 166px;
+    margin-top: 72px;
+}
+
+img.hero{
+    border-radius: 50%;
+    border: 20px solid #FFFFFF;
+    /* background: transparent url('img/Ellipse 2.png') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 4px 31px #0000000A;
+}
+
+/* Company logo Styling */
+div img.company-logo {
+    margin-top: 106px;
+    margin-left: 164px;
+}
+
+div.form{
+    width: auto;
+}
+div .login-form {
+    width: auto;
+}
+
+/* Header text styling */
+span {
+    font-weight: bolder;
+    color: #C8242F;
+}
+div.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-left: 164px;
+    width: 60%;
+    font-weight: bold;
+    color: #3E3E3E;
+    margin-top: -17px;
+}
+
+/* Form styling */
+div.form{
+    margin-left: 164px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.form-text {
+    font-size: 25px;
+    color: #3E3E3E;
+    margin-top: 33px;
+    font-weight: bold;
+}
+.username-box{
+    height: 49px;
+    width: 429px;
+    margin-bottom: 29px;
+    margin-top: 24px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    padding-left: 14.5px;
+}
+.password-box{
+    height: 49px;
+    width: 429px;
+    margin-bottom: 29px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    padding-left: 14.5px;
+}
+input::placeholder{
+    font-size: 15px;
+    color: #ADADAD;
+}
+
+/* Login Button Styling */
+.login-btn{
+    border-radius: 23px;
+    height: 45px;
+    width: 138px;
+    background-color: #C8242F;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.container {
+    width: 449px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Forgot Password Button Styling */
+.forgot-pass-div{
+    padding-top: 11px;
+}
+.forgot-pass {
+    text-decoration: none;
+    color: #3E3E3E;
+    font-size: 15px;
+}
+
+/* Register button styling */
+.new-member{
+    font-size: 15px;
+    margin-top: 35px;
+}
+.register-link{
+    font-weight: bold;
+    text-decoration: none;
+    color: #C8242F;
+}
+
+
+
+/* Media query */
+
+@media only screen and (width: 1280px) {
+    .main {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 30px;
+        margin-left: 10px;
+        
+    }  
+
+    body div.main div.hero-image{
+        margin-left: 23px;
+    }
+}
+@media only screen and (min-width: 1024px){
+
+}
+
+
+

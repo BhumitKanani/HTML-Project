@@ -1,0 +1,403 @@
+#navbar {
+    /* background-color: yellow; */
+    /* position: fixed; */
+    /* top: 0; */
+    /* height: 100px; */
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* background-color: #C8242F; */
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    
+}
+#navbar .company-logo {
+    margin-left: 15px;
+}
+#navbar div.search-bar{
+    margin-left: 3rem;
+}
+#navbar div.search-bar input{
+    margin-left: 1rem;
+    border: none;
+    font-weight: bold;
+    color: black;
+}
+#navbar div.profile{
+    padding-left: 70rem;
+}
+#navbar div.profile img.profile-img{
+    padding-left: 1rem;
+}
+#navbar div.profile span{
+    padding-left: 0.5rem;
+}
+#navbar div.profile img.down-arrow{
+    padding-left: 0.5rem;
+}
+
+div.inner-content{
+    background-color: #FAFAFA;
+
+}
+div.sidebar-content-div{
+    display: flex;
+
+    
+}
+div.page-content{
+    margin-left: 36px;
+    margin-top: 36px;
+    background-color: #FAFAFA;
+}
+
+
+#sidebar{
+    /* position: fixed;
+    left: 0;
+    top: 80px; */
+    width: 240px;
+    height: 100%;  
+    background-color: white;  
+    height: auto;
+ }
+ 
+ #sidebar ul{
+    list-style-type: none;
+    margin-left: -5px; 
+ }
+ #sidebar li{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-right: 32px;  
+ }
+ 
+ #sidebar li a{
+     width: 100%;
+     /* height: 100%; */
+     display: flex;
+     align-items: center;
+     padding: 10px ;
+     text-decoration: none;
+     border-radius: 5px;
+     color: #3E3E3E;
+     
+ }
+ #sidebar li a.active{
+     color: #C8242F;
+     background-color: #FFF3F4;
+ }
+ #sidebar li a span{
+     padding-left: 10px;
+ }
+ 
+ .sidebar-options{
+     display: flex;
+     flex-direction: column;
+ }
+
+
+
+.page-content h2{
+    margin-bottom: 20px;
+    
+}
+.form-1 h3{
+    margin-bottom: 15px;
+}
+.page-content .form-1 div input {
+    width: 100rem;
+    margin-bottom: 5px;
+    height: 3rem;
+    border: 0.5px solid #ADADAD;
+    border-radius: 5px;
+    
+}
+.form-1 div input::placeholder{
+    padding-left: 10px;
+    color: #ADADAD;
+}
+.page-content div textarea{
+    width: 100rem;
+    margin-bottom: 20px;
+    border: 0.5px solid #ADADAD;
+    border-radius: 5px;
+    
+}
+.form-1 div{
+    margin-bottom: 10px;
+}
+.name-box {
+    margin-bottom: 10px;
+    size: 150;
+}
+
+.form-2 input{
+    width: 48rem;
+    height: 3rem;
+    border: 0.5px solid #ADADAD;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #ADADAD;
+}
+.form-2 input::placeholder{
+    padding-left: 10px;
+    color: #ADADAD;
+}
+.form-2 .first-row {
+    display: flex;
+    width: 100rem;
+    justify-content: space-between;
+}
+.form-2 .second-row {
+    display: flex;
+    width: 100rem;
+    justify-content: space-between;
+}
+.form-2 h3{
+    margin-bottom: 15px;
+}
+.form-2 .second-row select{
+    width: 48rem;
+    height: 3rem;
+    border: 0.5px solid #ADADAD;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #ADADAD;
+}
+
+div.form-2{
+    margin-bottom: 25px;
+}
+
+
+.form-3 div.row1{
+    display: flex;
+    width: 100rem; 
+    justify-content: space-between;
+}
+.form-3 h4{
+    margin-bottom: 10px;
+}
+
+.form-3 input{
+    width: 32rem;
+    height: 3rem;
+    border: 0.5px solid #ADADAD;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #ADADAD;
+}
+
+div.form-3{
+    margin-bottom: 25px;
+}
+div.form-4{
+    margin-bottom: 45px;
+}
+
+
+
+.form-4 div.row2{
+    display: flex;
+    width: 100rem; 
+    justify-content: space-between;
+}
+.form-4 h4{
+    margin-bottom: 10px;
+}
+
+.form-4 input{
+    width: 24rem;
+    height: 3rem;
+    border: 0.5px solid #ADADAD;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #ADADAD;
+        /* accent-color: red;
+        border-color: red; */
+}
+.form-4 input:active{
+    border: 0.5px solid red;
+    border-radius: 5px;
+    accent-color: red;
+    border-color: red;
+}
+
+div.form-4{
+    margin-bottom: 45px;
+}
+.form-4  select{
+    width: 24rem;
+    height: 3rem;
+    border: 0.5px solid #ADADAD;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+
+.other-element h4{
+    margin-bottom: 30px;
+}
+.other-element button{
+    padding-left: 10px;
+    color: #C8242F;
+    border: 0.5px solid #C8242F;
+    border-radius: 23px;
+    font-size: 15px;
+    padding: 7px 15px 7px 15px;
+}
+.other-element .upload h5{
+    margin-bottom: 15px;
+}
+.other-element .upload span{
+    margin-left: 15px;
+    font-size: 13px;
+    color: #ADADAD;
+}
+.other-element .upload button{
+    background-color: white;
+    font-weight: bold;
+}
+.other-element .upload {
+    margin-bottom: 25px;
+}
+.other-element div.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 13rem;
+}
+.other-element div.buttons input{
+    accent-color: #C8242F;
+    /* color: #ADADAD; */
+}
+.other-element div.buttons label{
+    font-size: 15px;
+    color: #3E3E3E;
+}
+.other-element .buttons {
+    margin-bottom: 25px;
+}
+
+.other-element div.box{
+    display: flex;
+    justify-content: space-between;
+    width: 13rem;
+}
+.other-element div.box input{
+    accent-color: #C8242F;
+    /* color: #ADADAD; */
+}
+.other-element div.box label{
+    font-size: 15px;
+    color: #3E3E3E;
+}
+.other-element .box {
+    margin-bottom: 25px;
+}
+
+
+.snackbar h4{
+    margin-bottom: 15px;
+}
+.other-element .snackbar div.first-row{
+    display: flex;
+    justify-content: space-between;
+    width: 98rem;
+    margin-bottom: 15px;
+}
+.snackbar div.first-row div.error{
+    color: red;
+    border: 1px solid red;
+    width: 48rem;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.snackbar div.first-row div.info{
+    color: #00B9E1;
+    border: 1px solid #00B9E1;
+    width: 48rem;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.other-element .snackbar div.second-row{
+    display: flex;
+    justify-content: space-between;
+    width: 98rem;
+}
+.snackbar div.second-row div.warning{
+    color: #FFA800;
+    border: 1px solid #FFA800;
+    width: 48rem;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.snackbar div.second-row div.success{
+    color: #00AF27;
+    border: 1px solid #00AF27;
+    width: 48rem;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.snackbar{
+    margin-bottom: 25px;
+}
+
+.call-to-action div.action{
+    display: flex;
+    width: 14rem;
+    justify-content: space-between;
+}
+.call-to-action div.text{
+    margin-bottom: 15px;
+}
+.call-to-action div.action button.primary{
+    background-color: #C8242F;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.call-to-action div.action button.secondary{
+    background-color: white;
+    color: #C8242F;
+    border: 1px solid #C8242F;
+    font-size: 18px;
+    font-weight: bold;
+}
+.call-to-action{
+    margin-bottom: 25px;
+}
+
+.tabs{
+    width: 98rem;
+}
+.tabs h5{
+    margin-bottom: 15px;
+}
+.tabs div.header{
+    display: flex;
+    width: 15rem;
+    justify-content: space-between;
+}
+.tabs div.header div{
+    color: #ADADAD;
+    font-size: 15px;
+    font-weight: bold;
+}
+.tabs div.header div.active{
+    color: #C8242F;
+    text-decoration: underline;
+}
+
